@@ -19,21 +19,19 @@ This is a console based application that allows users to manage a library. Users
 
 ## Sample output
 
-#- - - -w e l c o m e  t o  l i b r a r y - - - -
--enter the name of library : 
--new lib
--enter the address of library : 
--mumbai
--enter pincode : 
--100001
+## - - - -w e l c o m e  t o  l i b r a r y - - - -
+- enter the name of library : 
+- new lib
+- enter the address of library : 
+- mumbai
+- enter pincode : 
+- 100001
 
-
--Enter your choice: 1
-
--You have chosen to add books.
-
--enter book name :Harry Potter and the Philosopher's Stone
--enter book author : J.K. Rowling
--enter book price : 400
--enter book publication : Bloomsbury
+## sample output 
+- Enter your choice: 1
+- You have chosen to add books.
+- enter book name :Harry Potter and the Philosopher's Stone
+- enter book author : J.K. Rowling
+- enter book price : 400
+- enter book publication : Bloomsbury
 
