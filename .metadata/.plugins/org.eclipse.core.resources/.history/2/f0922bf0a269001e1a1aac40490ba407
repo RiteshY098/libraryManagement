@@ -1,0 +1,60 @@
+package edu.qsp.lms.view;
+
+import java.util.Scanner;
+
+import edu.qsp.lms.model.Book;
+import edu.qsp.lms.model.Library;
+
+public class View {
+	static Scanner myInput = new Scanner(System.in);
+	static Library library = new Library();
+	static Book book = new Book();
+	static {
+		System.out.println("- - - -w e l c o m e  t o  l i b r a r y - - - -");
+
+		System.out.println("enter the name of library : ");
+		String libraryName = myInput.nextLine();
+		System.out.println("enter the address of library : ");
+		String libraryAddress = myInput.nextLine();
+		System.out.println("enter pincode : ");
+		int libraryPincode = myInput.nextInt();
+		library.setPincode(libraryPincode);
+		myInput.nextLine();
+
+		System.out.println("- - - - book details - - - -");
+		/*
+		 * bookName; private String bookAuthor; private double bookPrice; private String
+		 * publication;
+		 */
+
+	}
+
+	public static void main(String[] args) {
+		do {
+			System.out.println("select operation to perform - ");
+			System.out.println("1.Add book\n2.Remove book\n3.Update book\n4.Get book by name\n5.Get books\n6.Exit");
+			System.out.println("Enter digit respective to desired option : ");
+			int userChoice = myInput.nextInt();
+			switch (userChoice) {
+			case 1:
+
+				break;
+			case 2:
+
+				break;
+			case 3:
+
+				break;
+			case 4:
+
+				break;
+			case 5:
+
+				break;
+
+			default:
+				break;
+			}
+		} while (true);
+	}
+}

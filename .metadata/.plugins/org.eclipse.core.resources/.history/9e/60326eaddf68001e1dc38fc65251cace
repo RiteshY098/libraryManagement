@@ -1,0 +1,25 @@
+package edu.qsp.lms.controller;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import edu.qsp.lms.model.Book;
+import  edu.qsp.lms.model.Library;
+public class Controller {
+	private Library library = new Library();
+	
+	public void addBook(Book book) {
+		List<Book> books = library.getBooks();
+		if (books == null) {
+			books = new ArrayList<Book>();
+			library.setBooks(books);
+		}
+		books.add(book);
+	}
+	
+	public void searchBook(String bookName) {
+		List<Book> books = library.getBooks();
+		//
+		Iterator<Book> iterator = books.iterator();
+	}
+}

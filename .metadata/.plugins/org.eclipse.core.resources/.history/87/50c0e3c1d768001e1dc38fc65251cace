@@ -1,0 +1,5 @@
+package edu.qsp.lms.model;
+
+public class Library {
+
+}

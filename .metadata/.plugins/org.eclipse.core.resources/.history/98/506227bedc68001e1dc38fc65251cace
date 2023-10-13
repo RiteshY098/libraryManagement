@@ -1,0 +1,12 @@
+package edu.qsp.lms.controller;
+import java.util.List;
+
+import edu.qsp.lms.model.Book;
+import  edu.qsp.lms.model.Library;
+public class Controller {
+	private Library library = new Library();
+	
+	public void addBook(Book book) {
+		List<Book> books = library.getBooks();
+	}
+}
